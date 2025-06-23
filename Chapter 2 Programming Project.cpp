@@ -15,8 +15,8 @@ int main()
     sevenYear = 7 * riseRate;
     tenYear = 10 * riseRate;
     //Outputting the results in three seperate lines
-    std::cout << "In five years, the ocean level has risen " << fiveYear << "mm." << endl;
-    std::cout << "In seven years, the ocean level has risen " << sevenYear << "mm." << endl;
-    std::cout << "In ten years, the ocean level has risen " << tenYear << "mm." << endl;
+    std::cout << "In five years, the ocean level has risen by approximately " << fiveYear << "mm." << endl;
+    std::cout << "In seven years, the ocean level has risen by approximately " << sevenYear << "mm." << endl;
+    std::cout << "In ten years, the ocean level has risen by approximately " << tenYear << "mm." << endl;
 }
 
