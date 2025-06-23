@@ -5,14 +5,16 @@
 using namespace std;
 int main()
 {
-    //need variables for each year as integers and the rate the ocean rises as a double
+    //Need variables for each year and the rate the ocean rises as doubles
     double fiveYear, sevenYear, tenYear;
     double riseRate;
-    //initializing each variable
+    //Initializing the rate the ocean rises each year
     riseRate = 1.5;
+    //Calculating how high the ocean will rise after each year
     fiveYear = 5 * riseRate;
     sevenYear = 7 * riseRate;
     tenYear = 10 * riseRate;
+    //Outputting the results in three seperate lines
     std::cout << "In five years, the ocean level has risen " << fiveYear << "mm." << endl;
     std::cout << "In seven years, the ocean level has risen " << sevenYear << "mm." << endl;
     std::cout << "In ten years, the ocean level has risen " << tenYear << "mm." << endl;
