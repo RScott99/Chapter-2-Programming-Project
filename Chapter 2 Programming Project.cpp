@@ -17,7 +17,7 @@ int main()
     tDist = tank * tMpg;
     hDist = tank * hMpg;
     //Output distances
-    std::cout << "In town, the car can travel " << tDist << " miles on one tank." << endl;
-    std::cout << "On the highway, the car can travel " << hDist << " miles on one tank." << endl;
+    std::cout << "In town, the car can travel approximately " << tDist << " miles on one tank." << endl;
+    std::cout << "On the highway, the car can travel approximately " << hDist << " miles on one tank." << endl;
 }
 
