@@ -16,6 +16,6 @@ int main()
     double citrusFlavoredPer = (customers * citrusFlavored) / 100;
     //Outputting Results
     std::cout << "Approximately " << oneOrMorePer << " of their customers surveyed purchace one or more energy drinks per week." << endl;
-    std::cout << "Approximately " << citrusFlavoredPer << " of their customers surveyed prefer citrus - flavored energy drinks." << endl;
+    std::cout << "Approximately " << citrusFlavoredPer << " of their customers surveyed prefer citrus-flavored energy drinks." << endl;
 }
 
